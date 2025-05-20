@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.active hr{
+    display: block;
+}
+*{
+    font-family: Outfit;
+}
+
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Remove the outline that appears when images are clicked */
+.slider-container img {
+    outline: none;
+    border: none;
+}
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+  
+  /* You can also explicitly handle focus to ensure no border is added */
+.slider-container img:focus {
+    outline: none;
+    border: none;
+}
+
+@media(max-width:640px){
+    a.active{
+        background-color: #002060;
+        color: white;
+    }
+    .noHover {
+        background-color: transparent !important; /* Remove the background color */
+        color: inherit !important; /* Maintain the original text color */
+        cursor: default !important; /* Optional: Change the cursor to default */
+    }
+    
+}
