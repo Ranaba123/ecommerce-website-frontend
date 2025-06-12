@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Live Site Link - https://ecommerce-website-frontend-4f6m4j871.vercel.app/
+Live Site Link - http://ecommerce-website-frontend-sandy-three.vercel.app/
