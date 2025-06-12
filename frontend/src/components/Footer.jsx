@@ -25,7 +25,7 @@ const Footer = () => {
                 <p className='text-xl font-medium mb-5 text-blue-900'>COMPANY</p>
                 <ul className='flex flex-col gap-1 text-blue-800'>
                     <NavLink to={'/'} onClick={scrollToTop}  className='noHover cursor-pointer'><li>Home</li></NavLink>
-                    <NavLink to={'/about'} className='noHover cursor-pointer'><li>About Us</li></NavLink>
+                    <NavLink to={'/about'} onClick={scrollToTop} className='noHover cursor-pointer'><li>About Us</li></NavLink>
                     <NavLink className='noHover cursor-pointer'><li>Delivery</li></NavLink>
                     <NavLink className='noHover cursor-pointer'><li>Privacy Policy</li></NavLink>
                 </ul>
