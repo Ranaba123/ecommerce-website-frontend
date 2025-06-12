@@ -3,11 +3,13 @@
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config'
+import connectDB from './config/mongodb.js';
 
 
 //App config
 const app = express();
 const port = process.env.PORT || 4000;
+connectDB(); // connecting to the database
 
 //Middleware creating
 
@@ -20,4 +22,4 @@ app.get('/', (req, res) => {
     res.send("API working"); // when ever we start the local host 4000 it should display "API working"
 });
 
-app.listen(port, ()=> console.log('Sever is started on PORT : '+port))
+app.listen(port, ()=> console.log('Server is started on PORT : '+port))
