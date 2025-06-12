@@ -25,7 +25,7 @@ const Orders = () => {
                               <p>Quanitity  :1</p>
                               <p>Size  : M</p>
                             </div>
-                            <p className='mt-2'>Date : <span className='text-blue-400'>25,july,2024</span></p>
+                            <p className='mt-2'>Date : <span className='text-gray-400'>25,july,2024</span></p>
                           </div>
                       </div>
                       <div className='md:w-1/2 flex justify-between'>
@@ -33,6 +33,9 @@ const Orders = () => {
                               <p className='min-w-2 h-2 rounded-full bg-green-500'></p>
                               <p className=''>Ready to Ship</p>
                           </div>
+                          <button className='border px-4 py-2 text-sm font-medium rounded-sm text-blue-900'>
+                            Track Order
+                          </button>
                       </div>
                 </div>
               ))
